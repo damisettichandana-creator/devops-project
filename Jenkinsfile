@@ -8,11 +8,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/damisettichandana-creator/devops-project.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
